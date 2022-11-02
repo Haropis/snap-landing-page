@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: Epilogue;
+}
+
+header {
+  /* height: 20vh; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px 10px 30px;
+  /* box-shadow: 6px 1px 8px; */
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.navdiv ul {
+  display: flex;
+  text-decoration: none;
+  gap: 2rem;
+}
+
+.navbuttons {
+  display: flex;
+  gap: 1rem;
+  border-radius: 80px;
+}
+
+.b1 {
+  background-color: #fff;
+  border: none;
+  color: darkgray;
+}
+
+.b1:hover {
+  border: none;
+  background-color: #fff;
+  color: blue;
+}
+
+.b2 {
+  width: 80px;
+  height: 30px;
+  border-color: rgb(134, 255, 255);
+  background-color: #fff;
+  border-radius: 0.7rem;
+  color: darkgray;
+}
+
+.b2:hover {
+  background: -webkit-linear-gradient(pink, cyan);
+}
+
+.container {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  gap: 5px;
+  /* flex-direction: row; */
+}
+
+img {
+  max-width: 100%;
+}
+
+.text {
+  padding: 80px 190px;
+  font-size: 54px;
+  /* padding-left: 120px; */
+}
+
+.image {
+  /* scale: 0.4; */
+  padding: 30px;
+  flex-basis: 30%;
+  padding-right: 30px;
+}
+
+.h6 {
+  padding: 35px 0;
+  font-size: 18px;
+  color: darkgrey;
+}
+
+.text button {
+  padding: 10px 0;
+  background-color: #000;
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.icons img {
+  padding: 90px 0px;
+  /* display: inline-flex; */
+}
